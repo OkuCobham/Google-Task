@@ -1,0 +1,141 @@
+*{
+	padding: 5px;
+	margin: 0;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+	margin-left: auto;
+	text-decoration-line: none;
+	text-transform: capitalize;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
+
+.sign_in a{
+	box-sizing: content-box;
+	border-width: 14px;
+	color: white;
+	background-color: #1e95f2;
+	border-left: 1rem;
+	border: 6px solid #1e95f2;
+	border-radius: 4px;
+
+}
+
+nav img{
+	height: 15px;
+	cursor: pointer;
+}
+main{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+main img{
+
+	height: 11rem;
+	width: 14rem;
+	padding-top: 4rem;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 41%;
+
+	
+}
+
+main input{
+	float: center;
+	text-align: left;
+	font-family:   sans-serif;
+	font-size:17px; 
+	padding: 1rem;
+	height: 6px;
+	margin-bottom: 1rem;
+	margin-top: -6rem;
+	width: 35%;
+	border-radius: 18px;
+	border: 1px solid grey;
+}
+
+
+.buttons .buttons{
+	padding: 0.5rem;
+	margin-left: 40%;
+	justify-content: space-between;
+	border: none;
+	background-color: #f0f0f0;
+
+
+}
+
+main button{
+	border:none;
+	background-color: #f0f0f0;
+}
+.buttons:hover{
+	color: #858b8e;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.offers{
+	text-align: center;
+	justify-content: space-between;
+}
+
+
+p a{
+
+	text-decoration: none;
+}
+
+footer{
+	white-space: nowrap;
+	
+
+}
+.top{
+	border-spacing: none;
+	margin-top: 6rem;
+	margin-left: 1rem;
+}
+
+.left{
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+	white-space: nowrap;
+	display: inline;
+	margin-left: 1rem;
+	margin-right: 17%;
+	cursor: pointer;
+	
+}
+
+.center{
+	text-align: center;
+	text-transform: capitalize;
+	display: inline;
+	margin-right: 24%;
+	cursor: pointer;
+	
+}
+
+.right{
+
+	text-align: right;
+	text-transform: capitalize;
+	justify-content: space-around;
+	display: inline;
+	margin-right: 1rem;
+	cursor: pointer;
+}
